@@ -5,6 +5,7 @@
 178.154.221.193  ansible_ssh_key_file=/home/student/.ssh/id_rsa.pub ansible_user=centos
 
 [web]
+178.154.223.132  ansible_ssh_key_file=/home/student/.ssh/id_rsa.pub ansible_user=ubuntu1
 
 [database]
 
@@ -12,7 +13,7 @@
 
 
 [app:vars]
-#I cant add additional user here.
+#I cant add an additional user here.
 #62.84.117.65 ansible_ssh_key_file=/home/student/.ssh/id_rsa.pub ansible_user=ubuntu2
 #178.154.206.199  ansible_ssh_key_file=/home/student/.ssh/id_rsa.pub ansible_user=centos
 #62.84.117.65  ansible_ssh_key_file=/home/student/.ssh/id_rsa.pub ansible_user=ubuntu2
