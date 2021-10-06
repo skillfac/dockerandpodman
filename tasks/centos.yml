@@ -1,0 +1,5 @@
+- name: install podman
+  yum:
+    name: podman 
+    state: present
+         
