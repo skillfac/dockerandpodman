@@ -1,1 +1,6 @@
-- hosts:app
+- hosts: app
+  become: yes
+  become_method: sudo
+  roles:
+    - dockerandpodman
+

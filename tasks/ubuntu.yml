@@ -1,8 +1,3 @@
-- name: Deploy Docker
-  hosts: nana-test
-  become: yes
-  become_user: student
-  tasks:
     - name: install Docker's additional files
       apt:
         pkg:
